@@ -8,16 +8,27 @@ public class Employee {
 		System.out.println("Welcome to Employee Wage Computation Program on master branch");
 		int Wage_Per_Hours=20;
 		int Full_Day_Hours=8;
+		int Part_Time_Hours=4;
 		Random r1=new Random();
-		int attendance=r1.nextInt(2);
-		if(attendance == 1) {
-			System.out.println("Employee is present");
-			int dailyEmployeeWage=Wage_Per_Hours*Full_Day_Hours;
-			System.out.println("Daily Employee Wage:"+dailyEmployeeWage);
-		}else {
-			System.out.println("Employee is absent");
-			System.out.println("Daily Employee Wage: 0");
+		int attendance=r1.nextInt(3);
+	    int dailyWage=0;
+	    switch(attendance) {
+	    case 0:
+	    	System.out.println("Employee is Absent");
+	    	dailyWage=0;
+	    	break;
+	    case 1:
+	    	System.out.println("Employee is working part-time ");
+	    	dailyWage =Wage_Per_Hours*Part_Time_Hours;
+	    	break;
+	    case 2: 
+	    	System.out.println("Employee is working full-time");
+	    	break;
+	    	default:
+	    		System.out.println("Invalid Attendance");
+	    }
+	    System.out.println("Daily Employee Wage: "+dailyWage);
 		}
 	}
 
-}
+
