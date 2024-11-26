@@ -25,9 +25,12 @@ public class Employee {
 	    	System.out.println("Employee is working full-time");
 	    	break;
 	    	default:
-	    		System.out.println("Invalid Attendance");
+	    		
+	    		System.out.println("Invalid Attendance ");
 	    }
-	    System.out.println("Daily Employee Wage: "+dailyWage);
+	    
+	    System.out.println("Daily Employee Wage using switch case: "+ dailyWage);
+	    
 		}
 	}
 
