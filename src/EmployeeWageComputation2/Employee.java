@@ -8,9 +8,9 @@ public static void main(String[] args) {
 	Random r1=new Random();
 	int attendance=r1.nextInt(2);
 	if(attendance == 1) {
-		System.out.println("Employee is present");
+		System.out.println("Employee is present ");
 	}else {
-		System.out.println("Employee is absent");
+		System.out.println("Employee is absent ");
 	}
 	}
 }
