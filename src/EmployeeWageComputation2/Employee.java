@@ -17,7 +17,7 @@ public static void main(String[] args) {
     	dailyWage=0;
     	break;
     case 1:
-    	System.out.println("Employee is working part-time ");
+    	System.out.println("Employee is working part-time");
     	dailyWage = Wage_Per_hours * Part_Time_Hours;
     	break;
     case 2: 
