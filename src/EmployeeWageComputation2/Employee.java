@@ -24,7 +24,7 @@ public static void main(String[] args) {
     	System.out.println("Employee is working full-time");
     	break;
     	default:
-    		System.out.println("Invalid  Attendance");
+    		System.out.println("Invalid  Attendance ");
 	}
     System.out.println("Daily Employee Wage:  "+dailyWage);
 	}
