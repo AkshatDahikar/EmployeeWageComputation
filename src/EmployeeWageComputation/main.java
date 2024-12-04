@@ -3,8 +3,10 @@ package EmployeeWageComputation;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		  EmployeeAttendance employeeAttendance = new EmployeeAttendance();
+	        CalculateEmployeeWage calculateEmployeeWage = new CalculateEmployeeWage();
+	                int attendance=employeeAttendance.getAttendance();
+	              calculateEmployeeWage.calculateEmployeeWage(attendance);
 	}
 
 }
