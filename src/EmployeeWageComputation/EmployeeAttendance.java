@@ -7,9 +7,9 @@ public class EmployeeAttendance {
 	        Random random = new Random();
 	        int attendance = random.nextInt(2);
 	         if (attendance == 0) {
-	             System.out.println("Employee is absent");
+	             System.out.println(" Employee is absent");
 	         }else {
-	             System.out.println("Employee is present");
+	             System.out.println(" Employee is present");
 	         }
 	    }
 }
